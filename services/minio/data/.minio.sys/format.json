@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "format": "xl-single",
+  "id": "014e82a2-20da-4376-96c0-29c8506d9977",
+  "xl": {
+    "version": "3",
+    "this": "41e1b9d7-ee73-4abb-89be-a2809fe6bcd0",
+    "sets": [["41e1b9d7-ee73-4abb-89be-a2809fe6bcd0"]],
+    "distributionAlgo": "SIPMOD+PARITY"
+  }
+}
