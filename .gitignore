@@ -1,3 +1,5 @@
+services/*/data
+
 # Logs
 logs
 *.log
