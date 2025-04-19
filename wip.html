@@ -1,0 +1,70 @@
+<!-- WIP page -->
+<!-- Teaser explaining what the Virtual Photobooth project is, and that if the user
+ rescans the NFC tag another day, there will be a surprise. -->
+ <!-- The webpage is standalone and looks slick and elegant, with black background. -->
+  <!-- It loads a custom font called ABCRepro-Medium-Trial.woff available at /ABCRepro-Medium-Trial.woff -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Photobooth</title>
+    <!-- <link rel="preload" href="https://photobooth.e1n.sh/ABCRepro-Medium-Trial.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
+    <link rel="preload" hryygtef="/ABCRepro-Medium-Trial.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: 'ABCRepro';
+            src: url('/ABCRepro-Medium-Trial.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'ABCRepro', sans-serif;
+            text-align: left;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 2.3em;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        h4 {
+            font-size: 2.0em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            font-weight: 50;
+            margin-bottom: 40px;
+        }
+        .surprise {
+            font-size: 1.5em;
+            font-weight: 200;
+            font-style: italic;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">YOU!</h1>
+    <h3>Yes you in the toilets of Club Raum.</h3>
+    <p>Do you want to see selfies taken where you stand by other ravers?</p>
+    <h3>Introducing <span style="font-weight:bolder;color: #00FF00">Virtual Photobooth</span></h3>
+    <img src="/book.gif" style="height: 40vh; width: auto;" alt="Virtual Photobooth Logo">
+    <img src="/idk_wtf_is_this.gif" style="height: 40vh; width: auto;" alt="wtf">
+    <p>Tap the sticker to capture a moment in time.<br/>
+        See selfies from others before you taken at the same spot.</p>
+    <p class="surprise">If you rescan this sticker another day, there will be a surprise waiting for you!</p>
+    <img src="/underconstruction.gif" style="height: 10vh; width: auto;" alt="wtf">
+    <div class="nfc-tag">
+        <p>Scan this sticker next time:</p>
+        <img src="/nfc.png" style="height: 40vh; width: auto;" alt="NFC Tag">
+    </div>
+</html>
